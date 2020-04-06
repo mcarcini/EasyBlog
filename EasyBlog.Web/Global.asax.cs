@@ -36,7 +36,7 @@ namespace EasyBlog.Web
             ContainerBuilder builder = new ContainerBuilder();
 
             //Registration all the components inside of an assembly
-            builder.RegisterControllers(typeof(MvcApplication).Assembly).InstancePerRequest();
+            builder.RegisterControllers(typeof(MvcApplication).Assembly).InstancePerRequest().PropertiesAutowired();
             builder.RegisterApiControllers(typeof(MvcApplication).Assembly).InstancePerRequest();
 
             //Register a specific component
