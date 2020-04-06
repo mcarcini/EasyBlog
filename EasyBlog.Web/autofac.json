@@ -12,6 +12,14 @@
           "instanceScope": "singleinstance"
         }
       ]
+    },
+    {
+      "type": "EasyBlog.Web.Core.ComponentLocator",
+      "services": [
+        {
+          "type": "EasyBlog.Web.Core.IComponentLocator",          
+        }
+      ]
     }
   ]
 }

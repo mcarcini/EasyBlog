@@ -203,6 +203,7 @@
     <Compile Include="Configuration\EasyBlogModulesConfigurationElementCollection.cs" />
     <Compile Include="Controllers\API\BlogApiController.cs" />
     <Compile Include="Controllers\MVC\HomeController.cs" />
+    <Compile Include="Core\ComponentLocator.cs" />
     <Compile Include="Core\ExtensibilityManager.cs" />
     <Compile Include="Core\IExtensibilityManager.cs" />
     <Compile Include="Core\RepositoryRegistrationModule.cs" />
